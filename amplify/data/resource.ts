@@ -12,7 +12,7 @@ const schema = a.schema({
       content: a.string(),
     })
     .authorization((allow) => [allow.publicApiKey()]),
-});
+}); /*data model*/
 
 export type Schema = ClientSchema<typeof schema>;
 
